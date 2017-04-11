@@ -88,6 +88,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\2Scripts\CameraFollow.cs" />
+    <Compile Include="Assets\2Scripts\CharacterManagement.cs" />
     <Compile Include="Assets\2Scripts\EnemyController.cs" />
     <Compile Include="Assets\2Scripts\MainMenuScript.cs" />
     <Compile Include="Assets\2Scripts\PlayerMovement.cs" />
