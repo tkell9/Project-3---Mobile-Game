@@ -1,0 +1,32 @@
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 980 (ID=0x13c0)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+    Driver:   21.21.13.7653
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\tkell\Documents\Project-3---Mobile-Game\EXE_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\tkell\Documents\Project-3---Mobile-Game\EXE_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\tkell\Documents\Project-3---Mobile-Game\EXE_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\tkell\Documents\Project-3---Mobile-Game\EXE_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\tkell\Documents\Project-3---Mobile-Game\EXE_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\tkell\Documents\Project-3---Mobile-Game\EXE_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\tkell\Documents\Project-3---Mobile-Game\EXE_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\tkell\Documents\Project-3---Mobile-Game\EXE_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\tkell\Documents\Project-3---Mobile-Game\EXE_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\tkell\Documents\Project-3---Mobile-Game\EXE_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\tkell\Documents\Project-3---Mobile-Game\EXE_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\tkell\Documents\Project-3---Mobile-Game\EXE_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.025 seconds
+Platform assembly: C:\Users\tkell\Documents\Project-3---Mobile-Game\EXE_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\tkell\Documents\Project-3---Mobile-Game\EXE_Data\Managed\System.dll (this message is harmless)
+desktop: 3840x2160 60Hz; virtual: 3840x2160 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.052544 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: aa8 -> priority: 1 
+  Thread -> id: 39a8 -> priority: 1 
