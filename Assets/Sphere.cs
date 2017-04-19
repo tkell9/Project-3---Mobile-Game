@@ -4,15 +4,22 @@ using UnityEngine;
 
 public class Sphere : MonoBehaviour {
 
-    public Transform scale;
-    public bool isActive = false;
+    private Transform scale;
+    private bool isActive = false;
+  
+
+    private Vector3 minScale;
+    private Vector3 MaxScale;
+
+    
 
 
 
 
 	// Use this for initialization
-	void Start () {
-		
+	void Start ()
+    {
+      
 	}
 	
 	// Update is called once per frame

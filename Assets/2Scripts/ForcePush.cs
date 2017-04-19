@@ -17,10 +17,9 @@ public class ForcePush : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
-	    if (Input.GetButtonDown("Space"))
+	    if (Input.GetButtonDown("space"))
         {
-
-            Instantiate(sphere, transform.position, transform.rotation);
+            Instantiate(sphere, playerLocation);
         }	    
 
 
