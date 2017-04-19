@@ -8,8 +8,8 @@ public class Sphere : MonoBehaviour {
     private bool isActive = false;
   
 
-    //private Vector3 minScale;
-    //private Vector3 MaxScale;
+    private Vector3 minScale;
+    private Vector3 MaxScale;
 
     
 
