@@ -13,7 +13,15 @@ public class cameraMove : MonoBehaviour {
 
     public Transform camMount;
 
+    public float cameraMoveSpeed = 1.0f;
 
+    private float t = 0;
+
+    private Vector3 camPosition;
+
+    public Transform targetMount;
+
+    
 
     //private ArrayList;
 
@@ -23,7 +31,13 @@ public class cameraMove : MonoBehaviour {
     private Vector3 offset = new Vector3(0f, 5.5f, -10f);
 
 
-
+    void moveCamera()
+    {
+        while (t < 1.0f)
+        {
+            t += Time.deltaTime * (Time.timeScale / cameraMoveSpeed);
+        }
+    }
 
 
 
