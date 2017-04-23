@@ -1,0 +1,654 @@
+fileFormatVersion: 2
+guid: 5cb7c7507190a174b8ec00a411e4f47a
+timeCreated: 1492943302
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Flag2Spritesheet_0
+    21300002: Flag2Spritesheet_1
+    21300004: Flag2Spritesheet_2
+    21300006: Flag2Spritesheet_3
+    21300008: Flag2Spritesheet_4
+    21300010: Flag2Spritesheet_5
+    21300012: Flag2Spritesheet_6
+    21300014: Flag2Spritesheet_7
+    21300016: Flag2Spritesheet_8
+    21300018: Flag2Spritesheet_9
+    21300020: Flag2Spritesheet_10
+    21300022: Flag2Spritesheet_11
+    21300024: Flag2Spritesheet_12
+    21300026: Flag2Spritesheet_13
+    21300028: Flag2Spritesheet_14
+    21300030: Flag2Spritesheet_15
+    21300032: Flag2Spritesheet_16
+    21300034: Flag2Spritesheet_17
+    21300036: Flag2Spritesheet_18
+    21300038: Flag2Spritesheet_19
+    21300040: Flag2Spritesheet_20
+    21300042: Flag2Spritesheet_21
+    21300044: Flag2Spritesheet_22
+    21300046: Flag2Spritesheet_23
+    21300048: Flag2Spritesheet_24
+    21300050: Flag2Spritesheet_25
+    21300052: Flag2Spritesheet_26
+    21300054: Flag2Spritesheet_27
+    21300056: Flag2Spritesheet_28
+    21300058: Flag2Spritesheet_29
+    21300060: Flag2Spritesheet_30
+    21300062: Flag2Spritesheet_31
+    21300064: Flag2Spritesheet_32
+    21300066: Flag2Spritesheet_33
+    21300068: Flag2Spritesheet_34
+    21300070: Flag2Spritesheet_35
+    21300072: Flag2Spritesheet_36
+    21300074: Flag2Spritesheet_37
+    21300076: Flag2Spritesheet_38
+    21300078: Flag2Spritesheet_39
+    21300080: Flag2Spritesheet_40
+    21300082: Flag2Spritesheet_41
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Flag2Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3336
+        width: 889
+        height: 556
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Flag2Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 3336
+        width: 889
+        height: 556
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Flag2Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 3336
+        width: 889
+        height: 556
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Flag2Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 2667
+        y: 3336
+        width: 889
+        height: 556
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Flag2Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 3556
+        y: 3336
+        width: 889
+        height: 556
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Flag2Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 4445
+        y: 3336
+        width: 889
+        height: 556
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Flag2Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2780
+        width: 889
+        height: 556
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Flag2Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 2780
+        width: 889
+        height: 556
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Flag2Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 2780
+        width: 889
+        height: 556
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Flag2Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 2667
+        y: 2780
+        width: 889
+        height: 556
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Flag2Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 3556
+        y: 2780
+        width: 889
+        height: 556
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Flag2Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 4445
+        y: 2780
+        width: 889
+        height: 556
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Flag2Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2224
+        width: 889
+        height: 556
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Flag2Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 2224
+        width: 889
+        height: 556
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Flag2Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 2224
+        width: 889
+        height: 556
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Flag2Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 2667
+        y: 2224
+        width: 889
+        height: 556
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Flag2Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 3556
+        y: 2224
+        width: 889
+        height: 556
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Flag2Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 4445
+        y: 2224
+        width: 889
+        height: 556
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Flag2Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1668
+        width: 889
+        height: 556
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Flag2Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 1668
+        width: 889
+        height: 556
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Flag2Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 1668
+        width: 889
+        height: 556
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Flag2Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 2667
+        y: 1668
+        width: 889
+        height: 556
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Flag2Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 3556
+        y: 1668
+        width: 889
+        height: 556
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Flag2Spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 4445
+        y: 1668
+        width: 889
+        height: 556
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Flag2Spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1112
+        width: 889
+        height: 556
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Flag2Spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 1112
+        width: 889
+        height: 556
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Flag2Spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 1112
+        width: 889
+        height: 556
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Flag2Spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 2667
+        y: 1112
+        width: 889
+        height: 556
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Flag2Spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 3556
+        y: 1112
+        width: 889
+        height: 556
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Flag2Spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 4445
+        y: 1112
+        width: 889
+        height: 556
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Flag2Spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 556
+        width: 889
+        height: 556
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Flag2Spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 556
+        width: 889
+        height: 556
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Flag2Spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 556
+        width: 889
+        height: 556
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Flag2Spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 2667
+        y: 556
+        width: 889
+        height: 556
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Flag2Spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 3556
+        y: 556
+        width: 889
+        height: 556
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Flag2Spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 4445
+        y: 556
+        width: 889
+        height: 556
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Flag2Spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 889
+        height: 556
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Flag2Spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 0
+        width: 889
+        height: 556
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Flag2Spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 0
+        width: 889
+        height: 556
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Flag2Spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 2667
+        y: 0
+        width: 889
+        height: 556
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
