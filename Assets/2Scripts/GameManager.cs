@@ -16,12 +16,21 @@ public class GameManager : MonoBehaviour {
     static bool active = false;
 
 
+
+
+    private void Awake()
+    {
+    }
+
     // Use this for initialization
     void Start()
     {
         pausePanel = GameObject.FindGameObjectWithTag("PauseMenu");
         exitConfirm = GameObject.FindGameObjectWithTag("ExitConfirm");
-	}
+        pausePanel.gameObject.SetActive(false);
+        exitConfirm.gameObject.SetActive(false);
+    }
+	
 	
 	// Update is called once per frame
 	void Update () {
@@ -30,7 +39,9 @@ public class GameManager : MonoBehaviour {
 
     public void enablePauseMenu(int pauseMenuID)
     {
-        
+        //Vector2 inputVector = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Verttical")).normalized;
+       // yield > 0.5 && 
+
     }
 
 
@@ -48,6 +59,7 @@ public class GameManager : MonoBehaviour {
         //what to do when pause button is pressed
         Time.timeScale = 1;
         pausePanel.gameObject.SetActive(false);
+        exitConfirm.gameObject.SetActive(false);
         // pauseMenuID = 2;
     }
 
@@ -60,7 +72,13 @@ public class GameManager : MonoBehaviour {
     public void exitApplication()
     {
         exitConfirm.gameObject.SetActive(false);
+        Time.timeScale = 1;
         SceneManager.LoadScene("MainMenu");
+    }
 
+    public void return2PauseMenu()
+    {
+        exitConfirm.gameObject.SetActive(false);
+        pausePanel.gameObject.SetActive(true);
     }
 }
