@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+[RequireComponent(typeof(AudioSource))]
+
 public class ScoreManager : MonoBehaviour {
 
 
@@ -12,11 +14,12 @@ public class ScoreManager : MonoBehaviour {
     public GUIText currScore_GUI;
     public GUIText prevScore_GUI;
 
+    public AudioClip gainMoney;
+    public AudioClip loseMoney;
 
-    private void Start()
-    {
-        currScore_int = 0;
-    }
+   // public AudioSource AudioSauce;
+
+  
 
     public void addScore (int newScoreValue)
     {
@@ -31,8 +34,25 @@ public class ScoreManager : MonoBehaviour {
         currScore_GUI.text = " " + currScore_int;
     }
 
+    void gainMoneyFunction()
+    {
+       
+    }
 
+   /* void loseMoney()
+    {
 
+    }
+    */
 
+    IEnumerator MoneyControl()
+    {
+        AudioSource audioSauce = GetComponent<AudioSource>();
+        yield return new WaitForSeconds(audioSauce.clip.length);
+        audioSauce.clip = gainMoney;
+        audioSauce.Play();
+    }
+
+    
 
 }
