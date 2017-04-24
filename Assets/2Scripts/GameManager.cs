@@ -13,6 +13,8 @@ public class GameManager : MonoBehaviour {
 
     private GameObject exitConfirm;
 
+    static bool active = false;
+
 
     // Use this for initialization
     void Start()
@@ -40,8 +42,10 @@ public class GameManager : MonoBehaviour {
         
     }
 
+
     public void resumeGame()
     {
+        //what to do when pause button is pressed
         Time.timeScale = 1;
         pausePanel.gameObject.SetActive(false);
         // pauseMenuID = 2;
