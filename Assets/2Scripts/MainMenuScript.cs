@@ -13,6 +13,7 @@ public class MainMenuScript : MonoBehaviour
 
     private GameObject playOptions;
     public bool tutorialPlayed;
+    private GameObject mainGameBlock;
 
 
 
@@ -22,7 +23,10 @@ public class MainMenuScript : MonoBehaviour
     {
         playOptions = GameObject.FindGameObjectWithTag("PlayOptions");
         playOptions.gameObject.SetActive(false);
-        tutorialComplete = false;
+        tutorialPlayed = false;
+
+        mainGameBlock = GameObject.FindGameObjectWithTag("mainGameBlock");
+        mainGameBlock.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -50,7 +54,7 @@ public class MainMenuScript : MonoBehaviour
     {
         playOptions.gameObject.SetActive(false);
         SceneManager.LoadScene("TutorialLevel");
-        tutorialComplete = true;
+        tutorialPlayed = true;
     }
 
     public void play()
@@ -68,13 +72,19 @@ public class MainMenuScript : MonoBehaviour
 
     public void tutorialComplete()
     {
-        if (tutorialComplete)
+        if (tutorialPlayed)
         {
 
         }
     }
-  
-    
+
+    public void LoadLevel(string _SceneName)
+      {
+         
+          SceneManager.LoadScene(_SceneName);
+      }
+
+
     //This allows me to place the script on any button and then set
     // the level in the editor. I dont need this function anymore but it will be usefull
     // in future projects.
