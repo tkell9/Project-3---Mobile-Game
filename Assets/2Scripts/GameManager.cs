@@ -39,8 +39,7 @@ public class GameManager : MonoBehaviour {
 
     public void enablePauseMenu(int pauseMenuID)
     {
-        //Vector2 inputVector = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Verttical")).normalized;
-       // yield > 0.5 && 
+       
 
     }
 
