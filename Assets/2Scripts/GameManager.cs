@@ -13,14 +13,7 @@ public class GameManager : MonoBehaviour {
 
     private GameObject exitConfirm;
 
-    static bool active = false;
 
-
-
-
-    private void Awake()
-    {
-    }
 
     // Use this for initialization
     void Start()
