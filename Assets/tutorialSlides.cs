@@ -14,18 +14,17 @@ public class tutorialSlides : MonoBehaviour {
     private Image slide5;
     private Image slide6;
     private Image slide7;
-    private Image button;
-
+    
+    
 
     private int slideToShow = 0;
 
 
 
 	// Use this for initialization
-	void Start () {
-
-        button = GetComponent<Image>();
-        button.enabled = true;
+	void Start ()
+    {
+      
 
         slide1 = GetComponent<Image>();
         slide1.enabled = false;
@@ -50,42 +49,17 @@ public class tutorialSlides : MonoBehaviour {
  }
 	
     void startButton()
-    {
-        button.enabled = false;
-        slide1.enabled = true;
+    {      
+        
     }
 
     private void Update()
     {
-        if(Input.anyKey)
-        {
-            switch (slideToShow)
-            {
-                case 1:
-                    break;
-
-                case 2:
-                    break;
-
-                case 3:
-                    break;
-
-                case 4:
-                    break;
-
-                case 5:
-                    break;
-
-                case 6:
-                    break;
-
-                case 7:
-                    break;
-            }
-        }
+       
+        
     }
 
-
+    
 
 
 
