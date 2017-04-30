@@ -4,13 +4,29 @@ using UnityEngine;
 
 public class enemyManager : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
+    private int enemyToSpawn;
+    private bool enemyReady; //If any is ready it means there is already an enemy that has spawned for combat. 
+
+    public Transform enemyPrefabNormal;
+    public Transform enemyPrefabTank;
+    public Transform enemyPrefabSpider;
+    public Transform enemyPrefabBoss;
+
+    public GameObject enemySpawnPoint;
+
+    private int index1;
+    private int randomNumber;
+
+
+    void Start ()
+    {
+    
 		
 	}
 	
-	// Update is called once per frame
-	void Update () {
+	
+	void Update ()
+    {
 		
 	}
 }
