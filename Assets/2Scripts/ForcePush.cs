@@ -33,7 +33,7 @@ public class ForcePush : MonoBehaviour {
 	void Update ()
     {
         fakeTime = Time.fixedDeltaTime * delaySkip;
-        if (fakeTime * delaySkip >= delay)
+        if (fakeTime * delaySkip > delay)
         {
             isReady = true;
         }
@@ -48,6 +48,7 @@ public class ForcePush : MonoBehaviour {
         if(isReady)
         {
             Instantiate(speechBubble, new Vector3(-39,3,0),Quaternion.Euler(0,-90,0));
+            isReady = false;
             
         }
         else

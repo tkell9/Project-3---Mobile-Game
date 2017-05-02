@@ -14,7 +14,7 @@ public class AbilityManager : MonoBehaviour {
 		
 	}
 
-    //Vector2 inputVector = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Verttical")).normalized;
+    //Vector2 inputVector = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical")).normalized;
     //yield > 0.5 && 
 }
  
