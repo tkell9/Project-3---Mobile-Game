@@ -23,6 +23,25 @@ public class ForcePush : MonoBehaviour {
     
 
 
+
+
+
+
+
+    public void activateSpeech()
+    {
+        if (fakeTime * delaySkip >= delay)
+        {
+            isReady = true;
+        }
+        else
+        {
+            isReady = false;
+        }
+    }
+
+
+
 	// Use this for initialization
 	void Start ()
     {
@@ -32,15 +51,8 @@ public class ForcePush : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
-        fakeTime = Time.fixedDeltaTime * delaySkip;
-        if (fakeTime * delaySkip > delay)
-        {
-            isReady = true;
-        }
-        else
-        {
-            isReady = false;
-        }
+        fakeTime = Time.fixedDeltaTime;
+        
 	}
 
     public void forcePush()
